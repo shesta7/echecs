@@ -26,7 +26,6 @@ lastMove: d4 d5
 ``` chess
 fen: r1b1kbnr/pppp1ppp/2n5/8/3NP2q/8/PPP2PPP/RNBQKB1R w KQkq - 1 5
 lastMove: d8 h4
-arrows: b1->c3 f8->b4
 ```
 
 Il faut répondre Nc3. Sinon les Noires ont d'avantage. Voici 2 examples:
@@ -38,7 +37,12 @@ Il faut répondre Nc3. Sinon les Noires ont d'avantage. Voici 2 examples:
 ``` pgn
 1. e4 e5 2. Nf3 Nc6 3. d4 exd4 4. Nxd4 Qh4 5. Be2 Bc5 6. Be3 Bxd4 7. Bxd4 Qxe4 8. Bxg7 Qxg2 9. Bxh8 Qxh1+ 10. Bf1 d6
 ```
+Comme il a été dit il faut déplacer le cavalier sur case c3
 
+``` chess
+fen: r1b1kbnr/pppp1ppp/2n5/8/3NP2q/2N5/PPP2PPP/R1BQKB1R b KQkq - 2 5
+lastMove: b1 c3
+```
 ### Les variantes rares
 
 #### Nd4 Qd4 Qf6 Echange les reines
@@ -131,3 +135,7 @@ lastMove: g8 f6
 fen: r1bqk1nr/ppp2ppp/2np4/2b5/3NP3/4B3/PPP2PPP/RN1QKB1R w KQkq - 0 6
 lastMove: d7 d6
 ```
+
+
+https://chessmatenok.ru/shotlandskaya-partiya
+https://maximschool.ru/articles/scotch-game
